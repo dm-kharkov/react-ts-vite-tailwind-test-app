@@ -1,0 +1,50 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "target": "es6",
+    "module": "esnext",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": "./src",
+    "paths": {
+      "actions/*": [
+        "actions/*"
+      ],
+      "components/*": [
+        "components/*"
+      ],
+      "constants/*": [
+        "constants/*"
+      ],
+      "containers": [
+        "containers/*"
+      ],
+      "lib": [
+        "lib/*"
+      ],
+      "reducers/*": [
+        "reducers/*"
+      ],
+      "sections": [
+        "sections/*"
+      ],
+      "store/*": [
+        "store/*"
+      ],
+      "*": [
+        "*"
+      ]
+    },
+    "jsx": "react"
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts",
+    "**/*.test.ts"
+  ]
+}
